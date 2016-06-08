@@ -56,7 +56,7 @@
         - 5.13.2. 位置
         - 5.13.3. 字符串应使用 copy 属性
     - 5.14. 没有实例变量的接口
-    - 5.15. 自动synthesize实例变量
+    
 
 ## 1. 前言
 本规范基于Google Objective-C Style Guide，结合对Objective-C使用习惯和实际开发情况，对其中的说明性语句及非ARC部分进行了删减。
@@ -88,7 +88,7 @@ sectionForSectionIndexTitle:(NSString *)title
 ```
 
 ### 2.5. 声明与定义
-**[强制]** -，+ 与返回类型之间必须有一个空格，在参数列表中，除了参数之间不要有任何间距。  
+**[强制]** `-`，`+` 与返回类型之间必须有一个空格，在参数列表中，除了参数之间不要有任何间距。  
 
 示例
 ```
@@ -336,7 +336,7 @@ NSDictionary *stillWrong = @{
 };
 ```
 
-### 2.12. if else 括号位置
+### 2.12. `if` `else` 括号位置
 **[建议]** 有 `if` 就应该有 `else`，并且要在 `if` 后 `else` 前后留好空格  
 
 示例
@@ -419,7 +419,7 @@ if ([someObject isRight]) {
 
 
 ## 3. 命名规范
-在撰写纯粹的 Objective-C 代码时，推荐使用驼峰命名法（部分 model 要与其它端一致的话，就一致吧）。  
+在撰写纯粹的 Objective-C 代码时，推荐使用驼峰命名法（部分 model 要与其它端一致的情况就和其它端保持一致吧）。  
 
 ### 3.1. 文件名
 文件名应该反映其中包含的类实现的名称，按照项目中的约定且大小写相关，一个文件中建议只实现一个类。
@@ -513,13 +513,18 @@ int CrossPlatformAPI::DoSomethingPlatformSpecific() {
 ```
 //扩展一个framework类：
 @interface NSString (GTMStringParsingAdditions)
+
 - (NSString *)foobarString:
+
 @end
 
 //使方法和属性私有化
 @interface FoobarViewController ()
+
 @property(nonatomic, retain) NSView *dongleView;
+
 - (void)performLayout;
+
 @end
 ```
 
@@ -634,6 +639,7 @@ enum DisPlayTinge {
  *
  * @return <#return value description#>
  */
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 
 @property (copy) NSString *host; // network host
@@ -880,38 +886,4 @@ if (great) {
 
 @end
 
-```
-
-### 5.15. 自动 `synthesize` 实例变量
-
-**[建议]** 优先考虑使用自动 `synthesize` 实例变量。
-
-示例
-```
-// Header file
-@protocol Thingy
-
-@property(nonatomic, copy) NSString *widgetName;
-
-@end
-
-@interface Foo : NSObject<Thingy>
-
-// A guy walks into a bar.
-@property(nonatomic, copy) NSString *bar;
-
-@end
-
-// Implementation file
-@interface Foo ()
-
-@property(nonatomic, retain) NSArray *baz;
-
-@end
-
-@implementation Foo
-
-@synthesize widgetName = _widgetName;
-
-@end
 ```
