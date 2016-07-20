@@ -5,7 +5,7 @@
 *by Eric Shi(shjborage@gmail.com)*
 
 
-1. 前言
+[1. 前言](1-前言)
 
 2. 缩进与格式
     - 2.1. 缩进符
@@ -56,7 +56,7 @@
         - 5.13.2. 位置
         - 5.13.3. 字符串应使用 copy 属性
     - 5.14. 没有实例变量的接口
-    
+
 
 ## 1. 前言
 本规范基于Google Objective-C Style Guide，结合对Objective-C使用习惯和实际开发情况，对其中的说明性语句及非ARC部分进行了删减。
