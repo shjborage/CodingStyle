@@ -1,5 +1,6 @@
 ﻿# JavaScript Coding Style
 > 大部分内容来自网络，外加自己整理
+
 *by Eric Shi(shjborage@gmail.com)*
 
 [1 前言](#1-%E5%89%8D%E8%A8%80)
