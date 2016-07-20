@@ -15,12 +15,12 @@
 　　[2.4. 左大括号位置](#24-左大括号位置)   
 　　[2.5. 声明与定义](#25-声明与定义)   
 　　[2.6. 方法调用](#26-方法调用)   
-　　[2.7. @public、@protected与@private](#27-@public、@protected与@private)   
+　　[2.7. @public、@protected与@private](#27-public-protected-与-private)   
 　　[2.8. 异常](#28-异常)   
 　　[2.9. 协议](#29-协议)   
-　　[2.10. Blocks](#210-Blocks)   
-　　[2.11. Container Literals](#211-Container Literals)   
-　　[2.12. if else 括号位置](#212-if else 括号位置)   
+　　[2.10. Blocks](#210-blocks)   
+　　[2.11. Container Literals](#211-container-literals)   
+　　[2.12. if else 括号位置](#212-if-else-括号位置)   
 　　[2.13. 空行与空格其它补充](#213-空行与空格其它补充)   
 
 3. 命名规范
