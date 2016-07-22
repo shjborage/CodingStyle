@@ -10,5 +10,8 @@
 ## JavaScript规范
 <https://github.com/shjborage/CodingStyle/blob/master/JavaScript.md>
 
+## React规范
+<https://github.com/shjborage/CodingStyle/blob/master/React.md>
+
 
 # 欢迎大家提出各种改进建议〜 <shjborage#gmail.com>
