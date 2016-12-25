@@ -18,4 +18,4 @@
 
 
 
-# 欢迎大家提出各种改进建议〜 <mailto://shjborage#gmail.com>
+# 欢迎大家提出各种改进建议到 `Issue`
