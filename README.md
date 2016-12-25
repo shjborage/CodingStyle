@@ -4,14 +4,18 @@
 ## 代码提交日志规范
 <https://github.com/shjborage/CodingStyle/blob/master/SCMCommitLog.md>
 
-## Objective-C规范
+## Objective-C 规范
 <https://github.com/shjborage/CodingStyle/blob/master/Objective-C.md>
 
-## JavaScript规范
+## JavaScript 规范
 <https://github.com/shjborage/CodingStyle/blob/master/JavaScript.md>
 
-## React规范
+## React 规范
 <https://github.com/shjborage/CodingStyle/blob/master/React.md>
 
+## Java 规范（Android 适用）
+<https://github.com/shjborage/CodingStyle/blob/master/Java.md>
 
-# 欢迎大家提出各种改进建议〜 <shjborage#gmail.com>
+
+
+# 欢迎大家提出各种改进建议〜 <mailto://shjborage#gmail.com>
