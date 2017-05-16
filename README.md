@@ -7,8 +7,7 @@
 ## C&C++ 规范
 <https://github.com/shjborage/CodingStyle/blob/master/C%26C%2B%2B.md>
 
-## Objective-C 规范
-<https://github.com/shjborage/CodingStyle/blob/master/Objective-C.md>
+## [Objective-C 规范](/Objective-C.md)
 
 ## Swift 规范
 <https://github.com/shjborage/swift-style-guide>
