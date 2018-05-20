@@ -1602,7 +1602,7 @@ int error_cnt;            // Bad! 就为了省两个字母, 造成可读性下�
 #### 3.3.4. 函数命名
 ·[强制] [RULE103] 函数命名使用下划线分隔的全小写命名法
 ·[建议] 函数通常使用动词短语命名
-·[强制] 类私有变量的 accessor 命名: `getter: my_member_variable()`, setter: `set_my_member_variable(), mutable: mutable_my_member_variable()`
+·[强制] 类私有变量的 accessor 命名: `getter: my_member_variable()`, `setter: set_my_member_variable()`, `mutable: mutable_my_member_variable()`
 
 解释
 accessor 命名主要考虑兼容 Google protobuf 的命名形式
